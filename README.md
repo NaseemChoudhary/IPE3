@@ -9,7 +9,10 @@ A React/Vite application with ten ready-made portals (`q1`–`q10`). Each portal
 
 ## Start the app
 
+From the project directory, make the portal selector executable once:
+
 ```bash
+chmod +x shell.sh
 npm install
 npm run dev
 ```
@@ -21,7 +24,9 @@ Open the local URL printed by Vite, usually `http://localhost:5173`.
 The default app is the Hospital Doctor Directory in `src/App.jsx`. To use a prepared example, run:
 
 ```bash
+chmod +x shell.sh   # Only needed once
 ./shell.sh q1
+npm run dev
 ```
 
 Replace `q1` with any value from `q1` to `q10`, then run `npm run dev` again if needed.
